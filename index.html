@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="ligth-theme">
+    <h1>Task List</h1>
+    <p id="msg">Current tasks:</p> <!--id = permite a estilização de 1 elemento-->
+    <ul>
+        <!-- class = permite a estilização de todos os elementos da mesma classe-->
+        <li class="list">Add visual styles</li> 
+        <li class="list">Add ligth and dark themes</li>
+        <li>Enable switching the theme</li>
+    </ul>
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+    <script src="app.js"></script> 
+    <!--ao colocar o elemento script no final do body permite que todo o conteúdo da página seja exibido na tela primeiro, carregando o script em seguida-->
+    <noscript>You need to enable JavaScript to view the full site.</noscript> 
+    <!-- tolerância a falhas -->
+</body>
+</html>
